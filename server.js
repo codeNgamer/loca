@@ -140,7 +140,7 @@ if (config.demomode) {
 
 db.init();
 
-const http_port = process.env.LOCA_NODEJS_PORT || 8081;
+const http_port = process.env.PORT || 8081;
 app.listen(http_port, function() {
     logger.info('Listening port ' + http_port);
 });
