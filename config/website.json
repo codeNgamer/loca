@@ -7,7 +7,7 @@
         "product": {
             "name": "Oduah Property Management",
             "slogan": "Real estate management",
-            "website": "https://demo.nuageprive.fr/",
+            "website": "https://acirfa.com/",
             "imageUrl": "http://demo.nuageprive.fr/public/images/1.jpg"
         },
         "contact": {
@@ -22,26 +22,26 @@
         },
         "metatags": {
             "type": "website",
-            "title": "Open source real estate management",
+            "title": "Oduah Property Management",
             "description": "",
             "keywords": "open source software, free software, real estate management, online management, rent management, invoices, rent notices",
-            "location": "Paris, France",
+            "location": "Abuja, Nigerian",
             "rating": "General",
             "author": {
-                "name": "Camel Aissani",
-                "twitter": "@camelaissani"
+                "name": "Ekene Oduah",
+                "twitter": "@ekeneoduah"
             }
         },
         "author": {
-            "name": "Camel Aissani",
-            "website": "http://www.nuageprive.com",
+            "name": "Ekene Oduah",
+            "website": "http://acirfa.com",
             "twitter": {
-                "url": "https://twitter.com/camelaissani",
-                "id": "@camelaissani"
+                "url": "https://twitter.com/ekeneoduah",
+                "id": "@ekeneoduah"
             },
             "github": {
-                "url": "https://github.com/camelaissani",
-                "id": "camelaissani"
+                "url": "https://github.com/codeNgamer",
+                "id": "codeNgamer"
             }
         }
     }
