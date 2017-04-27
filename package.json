@@ -22,6 +22,7 @@
     "bootstrap-datepicker": "^1.6.4",
     "cookie-parser": "^1.4.3",
     "cookie-session": "^1.2.0",
+    "currency-symbol-map": "^3.1.0",
     "ejs": "^2.5.5",
     "errorhandler": "^1.5.0",
     "express": "^4.0.0",
@@ -73,7 +74,9 @@
     "purify-css": "^1.1.9",
     "rollup": "^0.41.4",
     "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-includepaths": "^0.1.8",
+    "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-uglify": "^1.0.1",
     "sinon": "^1.17.7",
     "supertest": "^3.0.0"

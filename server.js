@@ -36,7 +36,7 @@ i18next.use(LanguageDetector)
     .use(i18nFS)
     .use(i18nSprintf)
     .init({
-        debug: false,
+      debug: false,
         fallbackLng: 'en',
         pluralSeparator: '_',
         keySeparator: '::',

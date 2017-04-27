@@ -1,7 +1,12 @@
 import i18next from 'i18next';
 import Handlebars from 'handlebars';
 import moment from 'moment';
+import { getSymbolFromCurrency } from 'currency-symbol-map';
 import accounting from 'accounting';
+
+// const {
+//   portalCurrency: 'NGN'
+// } = process.env;
 
 class Helper {
     // Method helpers
@@ -16,7 +21,7 @@ class Helper {
         if (parseFloat(text) === 0 && emptyForZero) {
             return '';
         }
-        return accounting.formatMoney(text, '€', 2, i18next.t('__fmt_number_thousand_separator'), i18next.t('__fmt_number_decimal_separator'), hideCurrency?'%v':'%v %s');
+        return accounting.formatMoney(text, getSymbolFromCurrency('NGN'), 2, i18next.t('__fmt_number_thousand_separator'), i18next.t('__fmt_number_decimal_separator'), hideCurrency?'%v':'%v %s');
     }
 
     static formatPercent(text, hidePercent, emptyForZero) {

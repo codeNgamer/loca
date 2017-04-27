@@ -5,7 +5,7 @@
             "website": ""
         },
         "product": {
-            "name": "Loca",
+            "name": "Oduah Property Management",
             "slogan": "Real estate management",
             "website": "https://demo.nuageprive.fr/",
             "imageUrl": "http://demo.nuageprive.fr/public/images/1.jpg"
@@ -34,7 +34,7 @@
         },
         "author": {
             "name": "Camel Aissani",
-            "website": "http://www.nuageprive.fr",
+            "website": "http://www.nuageprive.com",
             "twitter": {
                 "url": "https://twitter.com/camelaissani",
                 "id": "@camelaissani"
