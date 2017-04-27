@@ -25,6 +25,7 @@ node_modules
 
 data
 data/**
+data/db/**
 
 dist
 bkp
